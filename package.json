@@ -11,9 +11,13 @@
     "lint": "yarn lint:js"
   },
   "dependencies": {
+    "@nuxtjs/vuetify": "^1.11.3",
+    "axios": "^0.21.1",
     "core-js": "^3.9.1",
     "nuxt": "^2.15.3",
-    "vue-template-compiler": "^2.6.12"
+    "v-calendar": "^2.3.0",
+    "vue-template-compiler": "^2.6.12",
+    "vuetify": "^2.5.3"
   },
   "devDependencies": {
     "@nuxt/types": "^2.15.3",

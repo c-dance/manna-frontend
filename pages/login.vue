@@ -15,8 +15,8 @@
         <button class="img--link mg--m">
           <img src="../assets/imgaes/img_kakao_login_l.png" alt="카카오 로그인" class="img">
         </button>
-        <NuxtLink to="/" class="l-block mg--xs text--s text--s--violet">비밀번호를 잊으셨나요?</NuxtLink>
-        <NuxtLink to="/join" class="l-block mg--xs text--s text--s--violet">회원가입</NuxtLink>
+        <NuxtLink to="/" class="l--block mg--xs text--s text--s--violet">비밀번호를 잊으셨나요?</NuxtLink>
+        <NuxtLink to="/join" class="l--block mg--xs text--s text--s--violet">회원가입</NuxtLink>
       </div>
     </div>
   </div>

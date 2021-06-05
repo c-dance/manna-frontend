@@ -22,7 +22,7 @@
                 </fieldset>
                 <fieldset class="input--wrap">
                     <span class="label">성별</span>
-                    <div class="l--flex--row">
+                    <div class="l--flex--row jt--center">
                         <div class="checkbox--wrap">
                             <label for="male" class="label label--checkbox">남자</label>
                             <input type="radio" id="man" name="sex" value="man" class="input--checkbox"> 

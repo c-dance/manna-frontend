@@ -7,7 +7,7 @@
           <NuxtLink to="/" class="btn--link btn--link--home">만나요</NuxtLink>
           <p class="heading--title--home"><i class="icon icon--left">🌡</i>36.5도씨</p>
         </h1>
-        <div class="l--flex--row mg--xl">
+        <div class="l--flex--row jt--center mg--xl">
           <NuxtLink to="/join" class="btn--link btn--link--account">회원가입</NuxtLink>
           <NuxtLink to="/login" class="btn--link btn--link--account">로그인</NuxtLink>
         </div>
