@@ -1,5 +1,6 @@
 <template>
   <div class="container l--table">
+    <Navigation/>
     <div class="l--cell">
     <div class="box box--m">
       <h1 class="heading--title">
@@ -61,13 +62,19 @@
 </template>
 
 <script>
+import Navigation from '~/components/Navigation.vue'
+
 export default {
+  components: {
+    Navigation
+  },
   props: ['date'],
   data() {
     return {
       participantTxt: '',
       participants: ['지금', '만나', '우리'],
       due: 1,
+      today : new Date().toString
     }
   },
   methods: {

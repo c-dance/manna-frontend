@@ -5,7 +5,7 @@
     width: 100%; 
     height: auto;
     min-height: 100vh;
-    padding: 40px 0;
+    padding: 120px 0;
     background-color: $color--white;
     &--home {
         background-color: $bg--base;
@@ -47,10 +47,7 @@
         height: auto;
         margin: 0 auto;
     }
-
-
 }
-
 
 // ====== pages ====== //
 .heading--title {
@@ -76,6 +73,27 @@
     }
     &--s {
         font-size: $font--m;
+    }
+}
+// ====== navigation ====== //
+.gnb {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100px;
+    background-color: #fff;
+    .inner {
+        width: 100%;
+        max-width: 1440px;
+        margin: 0 auto;
+        padding: 15px 20px;
+        line-height: 70px;
+    }
+    .menu {
+        margin: 0 30px;
+        font-size: $font--m;
+        color: $color--violet;
     }
 }
 
