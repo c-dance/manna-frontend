@@ -13,7 +13,7 @@
       <fieldset class="input--wrap">
         <label for="userEmail" class="label">
           약속날짜
-          <span class="l--block detail">(약속 날짜 후보로 등록되며, 해당 월 안에서 날짜 후보를 추가 할 수 있습니다.)</span>
+          <span class="l--block">(약속 날짜 후보로 등록되며, 해당 월 안에서 날짜 후보를 추가 할 수 있습니다.)</span>
         </label>
         <input id="date" type="text" placeholder="30자 이하로 입력해 주세요" class="input--text input--text--white" readonly="readonly" value="5월 8일">
       </fieldset>
