@@ -78,16 +78,18 @@
 // ====== navigation ====== //
 .gnb {
     width: 100%;
+    z-index: 99;
     position: fixed;
     top: 0;
     left: 0;
-    height: 100px;
+    height:80px;
     background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0,.1);
     .inner {
         width: 100%;
         max-width: 1440px;
         margin: 0 auto;
-        padding: 15px 20px;
+        padding: 5px 20px;
         line-height: 70px;
     }
     .menu {
@@ -272,6 +274,11 @@
     width: auto;
     min-width: 510px; 
     height: auto;
+    &--add {
+        display: inline-block;
+        width: 310px;
+        height: auto;
+    }
 }
 
 // ====== calendar ====== //
@@ -341,4 +348,43 @@
             color: rgba(0,0,0,.6);
         }
     }
+}
+
+/* --- appointment ---*/
+.appointment {
+    width: 100%;
+    max-width: 250px;
+    margin: 0 20px;
+    padding: 20px;
+    background-color: $bg--base;
+    border-radius: $radius--l;
+    box-shadow: 0 5px 5px rgba(0, 0, 0,.4);
+    .date__box {
+        width: 100px;
+        height: 100px;
+        margin: 0 auto 20px;
+        padding: 14px;
+        background-color: $bg--base;
+        border: 2px solid rgba(79,70,229, .1);
+        border-radius: $radius--l;
+        text-align: center;
+        .month {
+            display: inline-block;
+            margin-bottom: 4px;
+            font-size: $font--s;
+            color: $color--red;
+        }
+        .date {
+            font-size: $font--l;
+            color: $color--violet;
+        }
+        .today {
+            font-size: $font--m;
+            color: #fff;
+        }
+        &-today {
+            background-color: $color--violet;
+        }
+    }
+    
 }

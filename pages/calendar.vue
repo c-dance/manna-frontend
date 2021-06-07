@@ -1,6 +1,5 @@
 <template>
   <div class="container">
-    <Navigation/>
     <div class="box box--xl">
     <h2 class="heading--title">약속 캘린더</h2>
     <div class="l--flex--row jt--space pd--l">
@@ -38,12 +37,10 @@
 </template>
 
 <script>
-import Navigation from '~/components/Navigation.vue'
 import Schedule from '~/components/Calendar/Schedule.vue'
 
 export default {
   components: {
-    Navigation,
     Schedule,
   },
   data() {

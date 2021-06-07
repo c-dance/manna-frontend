@@ -1,6 +1,5 @@
 <template>
   <div class="container l--table">
-    <Navigation/>
     <div class="l--cell">
     <div class="box box--m">
       <h1 class="heading--title">
@@ -62,11 +61,10 @@
 </template>
 
 <script>
-import Navigation from '~/components/Navigation.vue'
 
 export default {
   components: {
-    Navigation
+
   },
   props: ['date'],
   data() {

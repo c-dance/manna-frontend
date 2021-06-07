@@ -34,6 +34,9 @@
     width: 100%; 
     height: auto;
 }
+.l--inline {
+    display: inline-block;
+}
 
 .inline__wrap {
     width: 100%;
@@ -41,6 +44,7 @@
         display: inline-block;
         vertical-align: top;
     }
+
 }
 
 // ====== style ====== //
