@@ -20,7 +20,7 @@
 $font--bold : "BcCardB";
 $font--light : "BcCardL";
 $font--xl : 72px;
-$font--l : 48px;
+$font--l : 36px;
 $font--m : 24px;
 $font--s : 16px;
 $font--xs : 10px;
@@ -36,5 +36,40 @@ $radius--l : 12px;
 $radius--m : 6px;
 $radius--s : 4px;
 
+// ====== mixin ====== //
+@mixin animation ($keyframes, $duration, $delay, $count){
+    animation-name: $keyframes;
+    animation-duration: $duration;
+    animation-delay: $delay;
+    animation-iteration-count: $count;
+}
+@mixin keyframes ($name) {
+    @keyframes #{$name} {
+        @content;
+    }
+}
 
+// ====== keyframes ====== //
+@include keyframes (btmBounce){
+    0%{
+        transform: translateY(0) scale(1);
+    }
+    25% {
+        transform: translateY(10px) scale(1.15);;
+    }
+    70% {
+        transform: translateY(0) scale(1.05);
+    }
+    100% {
+        transform: translateY(0) scale(1);
+    }
+}
 
+@include keyframes (slideUp) {
+    0% {
+        transform: translateY(130%);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}

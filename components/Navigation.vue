@@ -4,12 +4,12 @@
         <NuxtLink to="/" class="logo__wrap inline"><Logo/></NuxtLink>
         <div>
             <div class="menu__wrap inline">
-                <NuxtLink to="/" class="menu">LIST</NuxtLink>
-                <NuxtLink to="/calendar" class="menu">CALENDAR</NuxtLink>
-                <NuxtLink to="/register" class="menu">REGISTER</NuxtLink>
+                <NuxtLink to="/list" class="menu">내 약속 보기</NuxtLink>
+                <NuxtLink to="/calendar" class="menu">약속 캘린더</NuxtLink>
+                <NuxtLink to="/register" class="menu">약속 만들기</NuxtLink>
             </div>
             <div class="util__wrap inline l--flex--row jt--center">
-                <a class="text--s text--s--violet">로그아웃</a>
+                <a class="menu">로그아웃</a>
             </div>
         </div>
         </div>
